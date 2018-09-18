@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel = "stylesheet" type="text/css" href="../css/style_ShySquares.css"> <!-- Style -->
+	<link rel = "stylesheet" type="text/css" href="../css/style_ShySquares-v2.css"> <!-- Style -->
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 	<script src="../js/js_ShySquares.js"></script>
-	<title>Shy Squares</title>
+	<title>Disco Squares</title>
 
 	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript">
@@ -22,6 +22,30 @@
 					$("div.s8").removeClass().addClass("s8 top-right");
 					$("div.s9").removeClass().addClass("s9 top-left");
 				}
+			});
+			$("div.full").hover(function(event){
+				X = false;
+				$("div.s1").removeClass().addClass("s1");
+				$("div.s2").removeClass().addClass("s2");
+				$("div.s3").removeClass().addClass("s3");
+				$("div.s4").removeClass().addClass("s4");
+				$("div.s5").removeClass().addClass("s5 white");
+				$("div.s6").removeClass().addClass("s6");
+				$("div.s7").removeClass().addClass("s7");
+				$("div.s8").removeClass().addClass("s8");
+				$("div.s9").removeClass().addClass("s9");
+			});
+			$("div.background").click(function(event){
+				X = false;
+				$("div.s1").removeClass().addClass("s1");
+				$("div.s2").removeClass().addClass("s2");
+				$("div.s3").removeClass().addClass("s3");
+				$("div.s4").removeClass().addClass("s4");
+				$("div.s5").removeClass().addClass("s5 white");
+				$("div.s6").removeClass().addClass("s6");
+				$("div.s7").removeClass().addClass("s7");
+				$("div.s8").removeClass().addClass("s8");
+				$("div.s9").removeClass().addClass("s9");
 			});
 			$("div.s2").hover(function(event){
 				if (X) {
@@ -145,15 +169,18 @@
 			var y = event.clientY;
 		}
 	</script> -->
-	
-	<div class="s1"></div>
-	<div class="s2"></div>
-	<div class="s3"></div>
-	<div class="s4"></div>
-	<div class="s5 black"></div>
-	<div class="s6"></div>
-	<div class="s7"></div>
-	<div class="s8"></div>
-	<div class="s9"></div>
+	<div class="full"></div>
+	<div class="background">
+		<div class="s1"></div>
+		<div class="s2"></div>
+		<div class="s3"></div>
+		<div class="s4"></div>
+		<div class="s5 white"></div>
+		<div class="s6"></div>
+		<div class="s7"></div>
+		<div class="s8"></div>
+		<div class="s9"></div>
+	</div>
+
 </body>
 </html>

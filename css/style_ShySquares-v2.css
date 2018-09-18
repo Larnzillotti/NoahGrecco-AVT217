@@ -1,0 +1,124 @@
+* {
+	transition: all 0.2s ease;
+	/*background-color: black;*/
+	position: absolute;
+	float:left;
+	background-color: black;
+}
+
+
+.black{
+	background-color: black;
+	
+} .white {
+	background-color:white;
+} .middle{
+	background-color:white;
+	
+} .left {
+	background-color:purple;
+	
+} .right {
+	background-color:#CFDB00;
+
+} .bottom {
+	background-color: #00A0E9;
+	
+} .top {
+	background-color:red;
+	
+} .top-left {
+	background-color:violet;
+	
+} .top-right {
+	background-color:orange;
+	
+} .bottom-left {
+	background-color:darkblue;
+	
+} .bottom-right {
+	background-color:darkgreen;
+	
+}
+
+.full {
+	top:0px;
+	left:0px;
+	background-color:black;
+	width:99vw;
+	height:98vh;
+}
+
+.background {
+	top:0px;
+	left:45vh;
+	background-color: black;
+	width: 100vh;
+	height: 98vh;
+}
+
+.s1 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 0px;
+	left:0vh;
+	border: solid black 1vh;
+} .s2 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 0px;
+	left:33vh;
+	border: solid black 1vh;
+} .s3 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 0px;
+	left: 66vh;
+	border: solid black 1vh;
+} .s4 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 33vh;
+	left:0vh;
+	border: solid black 1vh;
+} .s5 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 33vh;
+	left:33vh;
+	border: solid black 1vh;
+}  .s6 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 33vh;
+	left: 66vh;
+	border: solid black 1vh;
+} .s7 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 66vh;
+	left:0vh;
+	border: solid black 1vh;
+} .s8 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 66vh;
+	left: 33vh;
+	border: solid black 1vh;
+} .s9 {
+	width: 28vh;
+	height:28vh;
+	margin: 2vh;
+	top: 66vh;
+	left: 66vh;
+	border: solid black 1vh;
+}
+
