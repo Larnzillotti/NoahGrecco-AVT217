@@ -19,4 +19,7 @@
 	left:20vh;
 	width: 683px;
 	height:383px;
+} img.resize {
+	max-width:50%;
+	max-height: 50%;
 }
