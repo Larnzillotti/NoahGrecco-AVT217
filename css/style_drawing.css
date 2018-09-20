@@ -11,6 +11,9 @@
         font-weight: bold;
         color:black;
         margin:auto;
-		} ol {
-			padding-top: 5px;
-		}
+} ol {
+	padding-top: 5px;
+} 
+.drawing {
+	left:20vh;
+}
