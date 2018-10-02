@@ -59,13 +59,16 @@
     left: 0px;
     min-height: 100%;
     width:2%;
-    background-color: #e0d026;
+    background-color: black;
     position: fixed;
 } .right {
     top: 0px;
     left: 98%;
     height: 100%;
     width: 2%;
-    background-color: #e0d026;
+    background-color: black;
     position: fixed;
+} .image {
+    align-content: center;
+    left:20px;
 }
