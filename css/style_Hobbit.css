@@ -1,5 +1,7 @@
 * {
     background-color:beige; 
+    
+    
 } p {
     float: none;
     font-family: 'Raleway', sans-serif;
@@ -22,12 +24,48 @@
     font-size: 24px;
     color:black;
     font-weight: normal;
-} .title {
+} h1 {
 	font-size: 48px;
     font-weight: bold italic;
-} .sub {
-    font-size: 36px;
+    font-family: 'Niramit', sans-serif;
+    float: none;
+    border-left: 10px;
+    border-right: 10px;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color:black;
+    font-weight: normal;
+} h2 {
+    font-size: 32px;
     font-weight: italic;
+    font-family: 'Niramit', sans-serif;
+    float: none;
+    border-left: 10px;
+    border-right: 10px;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color:black;
+    font-weight: normal;
+} .title {
+    font-size: 32px;
+    font-weight: italic;
+    font-family: 'Niramit', sans-serif;
 } .i {
     font-style: italic;
+} .left {
+    top: 0px;
+    left: 0px;
+    min-height: 100%;
+    width:2%;
+    background-color: #e0d026;
+    position: fixed;
+} .right {
+    top: 0px;
+    left: 98%;
+    height: 100%;
+    width: 2%;
+    background-color: #e0d026;
+    position: fixed;
 }
