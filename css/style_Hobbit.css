@@ -1,7 +1,5 @@
 * {
-    background-color:beige; 
-    
-    
+    background-color:beige;     
 } p {
     float: none;
     font-family: 'Raleway', sans-serif;
@@ -61,6 +59,7 @@
     width:2%;
     background-color: black;
     position: fixed;
+    cursor: pointer;
 } .right {
     top: 0px;
     left: 98%;
@@ -68,6 +67,7 @@
     width: 2%;
     background-color: black;
     position: fixed;
+    cursor: pointer;
 } .image {
     align-content: center;
     left:20px;
