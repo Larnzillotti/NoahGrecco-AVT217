@@ -28,4 +28,6 @@
 } .sub {
     font-size: 36px;
     font-weight: italic;
+} .i {
+    font-style: italic;
 }
