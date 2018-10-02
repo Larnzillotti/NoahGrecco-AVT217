@@ -5,10 +5,10 @@
     font-family: 'Raleway', sans-serif;
     border-left: 10px;
     border-right: 10px;
-    text-align: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    font-size: 24px;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 22px;
     color:black;
     font-weight: normal;
 } ol {
@@ -16,10 +16,10 @@
     font-family: 'Raleway', sans-serif;
     border-left: 10px;
     border-right: 10px;
-    text-align: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    font-size: 24px;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 22px;
     color:black;
     font-weight: normal;
 } h1 {
@@ -52,6 +52,9 @@
     font-family: 'Niramit', sans-serif;
 } .i {
     font-style: italic;
+    text-align: center;
+    padding-left: 25vw;
+    padding-right: 25vw;
 } .left {
     top: 0px;
     left: 0px;
