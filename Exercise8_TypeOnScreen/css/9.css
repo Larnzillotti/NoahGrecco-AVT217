@@ -1,0 +1,88 @@
+* {
+     color:black;
+     
+} .full {
+    left:0%;
+    top:0%;
+    width:100%;
+    height:100%;
+    position: fixed;
+    background: linear-gradient(to bottom, #e0bfe0 15%, #9e257e 100%);
+} p {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-size: 24px;
+    color:black;
+    font-weight: normal;
+    line-height: 45px;
+    float: none;
+
+} h1 {
+    padding-top: 30px;
+    text-align: center; 
+	font-size:44px;
+    left: 8px;
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: normal;
+} h2 {
+    padding-top: 30px;
+    font-size:28px;
+    text-align:center;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+} h3 {
+    padding-top: 15px;
+    font-size:28px;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-weight: bold;
+} .vertical {
+    position:fixed;
+    top:300px;
+    right:-100px;
+    transform:rotate(90deg);
+} .left {
+    top: 0px;
+    left: 0%;
+    min-height: 100%;
+    width:30%;
+    position: fixed;
+    background: white;
+
+} .right {
+    top: 0px;
+    left: 30%;
+    min-height: 100%;
+    width:70%;
+    position: fixed;
+    background: white;
+} .bottom-left {
+    position: fixed;
+    top:75%;
+    left:15%;
+    text-align: center;
+    width:25%;
+} .bottom-right1 {
+    position: fixed;
+    top:76%;
+    right:20%;
+    text-align: center;
+    width:25%;
+} .bottom-right2 {
+    position: fixed;
+    top:86%;
+    right:20%; 
+    text-align: center;
+    width:25%;
+} .main {
+    position:fixed;
+    top:18px;
+    left:20%;
+    width:60%;
+
+}
