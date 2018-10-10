@@ -19,9 +19,12 @@
     text-align: left;
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
     font-size: 22px;
     color:black;
     font-weight: normal;
+    line-height: 35px;
 } h1 {
 	font-size: 48px;
     font-weight: bold italic;
@@ -63,6 +66,13 @@
     background-color: black;
     position: fixed;
     cursor: pointer;
+}.left_blank {
+    top: 0px;
+    left: 0px;
+    min-height: 100%;
+    width:2%;
+    background-color: black;
+    position: fixed;
 } .right {
     top: 0px;
     left: 98%;
@@ -71,9 +81,17 @@
     background-color: black;
     position: fixed;
     cursor: pointer;
+} .right_blank {
+    top: 0px;
+    left: 98%;
+    height: 100%;
+    width: 2%;
+    background-color: black;
+    position: fixed;
 } .image {
     align-content: center;
     left:20px;
 } a {
     text-decoration: none;
+    color: #c20acc;
 }

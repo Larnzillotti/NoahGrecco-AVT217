@@ -1,0 +1,35 @@
+* {
+    background-color:#3C6478;  
+    color:white;
+} p {
+    position: absolute;
+    top: 200px;
+    left:300px;
+    width: 1000px;
+    font-size: 26px;
+    font-family: 'Arimo', sans-serif;
+    text-align: left;
+} h1 {
+	font-size:48px;
+    text-align:left;
+    left: 8px;
+    font-family: 'Niramit', sans-serif;
+} h2 {
+    text-align: center;
+    font-size:36px;
+    text-align:center;
+    font-family: 'Niramit', sans-serif;
+    font-weight:normal;
+} h3 {
+    text-align: center;
+    font-size:32px;
+    text-align:center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    
+} .vertical {
+    position:fixed;
+    top:300px;
+    left:-100px;
+    transform:rotate(-90deg);
+}

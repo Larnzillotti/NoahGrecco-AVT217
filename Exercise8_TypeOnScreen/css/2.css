@@ -1,0 +1,50 @@
+* {
+    background-color:beige;  
+    color:black;   
+} p {
+    float: none;
+    font-family: 'Raleway', sans-serif;
+    border-left: 10px;
+    border-right: 10px;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 26px;
+    color:black;
+    font-weight: normal;
+} ol {
+    float: none;
+    font-family: 'Raleway', sans-serif;
+    border-left: 10px;
+    border-right: 10px;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 22px;
+    font-weight: normal;
+} h1 {
+	font-size:48px;
+    text-align:center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-family: 'Oswald', sans-serif;
+    font-style:bold;
+} h2 {
+    font-size:32px;
+    text-align:center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;
+} h3 {
+    font-size:28px;
+    text-align:center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-family: 'Niramit', sans-serif;
+    font-weight: normal;
+} .vertical {
+    writing-mode: vertical;
+    text-orientation: mixed;
+    float:left;
+}
