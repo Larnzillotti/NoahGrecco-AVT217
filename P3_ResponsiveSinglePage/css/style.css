@@ -5,6 +5,10 @@ Small Desktop - 1024px wide
 Larger Desktop - 1440px wide
 */
 
+* {
+	
+}
+
 .menu-icon > .line {
 	left:10%;
     background-color: black;
@@ -56,19 +60,28 @@ body {
 #container {
 	width: 55vw;
 	margin: 50px auto;
+	
+
 }
 .siteName {
 	width: 55vw;
 	margin: 0 auto;
 	font-family: 'Neuton', serif;
+	text-align: center;
 }
 .headline {
 	width: 50vw;
 	margin: 0 auto;
 	font-family: 'Merriweather', serif;
+	text-align: center;
 }
-.leftCol, .rightCol {
+.leftCol, .rightCol, .centerCol {
 	float: left;
+}
+.centerCol {
+	width: calc((100% / 2));
+	margin-right: 25%;
+	margin-left: 25%;
 }
 .leftCol {
 	width: calc((100% / 2) - 25px);
@@ -84,9 +97,12 @@ body {
     width: 800px;
 }
 img {
-	max-width: 100%;
+	max-width: 55vw;
 	margin-top: 20px;
 	/*margin-bottom: 20px;*/
+}
+.img2 {
+		max-width: 25vw;
 }
 .credit {
 	margin: 0 0 15px;
@@ -116,52 +132,89 @@ img {
 	margin: 700px 0 0 0;
 }
 h1 {
-	font-family: sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: 4rem;
-	
+	float:center;
 }
 p {
+	width: 55vw;
 	margin: 0 0 15px;
 	font-size: 1.3em;
 	font-family: 'Merriweather', serif;
 	line-height: 1.4em;
+	overflow-wrap: break-word;
+	padding-right: 10px;
+	white-space: wrap;
+	text-overflow: ellipsis;
+	overflow: visible;
 }
 
 
-@media only screen and (max-width: 1440px) { /*Large Desktop*/
-	/*#container {
-		width: 90vw;
-		margin: 50px auto;
-	}
-	.headline {
-		width: 75vw;
-		margin: 0 auto;
-	}*/
-}
-@media only screen and (max-width: 1024px) { /*Small Desktop*/
-	/*body {
-		font-size: 18px;
-	}
+@media only screen and (min-width: 320px) { /*320px Mobile*/
 	h1 {
-		font-size: 2em;
+		font-size:3rem;
+	}
+	p {
+		font-size:14px;
 	}
 	#container {
-		width: 95vw;
+		margin-left: 0px auto;
+	}
+	body {
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (min-width: 768px) { /*Tablet*/
+
+	h1 {
+		font-size:3rem;
+	}
+	p {
+		font-size:14px;
+	}
+	#container {
+		margin-left: 20vw auto;
+	}
+	
+	body {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-width: 1024px) { /*Small Desktop*/
+	body {
+		font-size: 1.2em;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	p {
+		font-size: 1.2em;
+	}
+	#container {
+		margin-left: 30vw auto;
+
+	}
+} 
+
+@media only screen and (min-width: 1440px) { /*Large Desktop*/
+	body {
+		font-size: 1.2em;
+	}
+	
+	
+	h1 {
+		font-size: 4rem;
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+
+	#container {
 		margin: 50px auto;
+		align-self:left;
 	}
-	.headline {
-		width: 95vw;
-		margin: 0 auto;
-	}
-	.leftCol {
-		width: 100%;
-		margin-right: 0;
-	}
-	.rightCol {
-		width: 100%;
-		margin-left: 0;
-	}*/
 }
