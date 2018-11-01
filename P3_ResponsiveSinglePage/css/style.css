@@ -1,0 +1,167 @@
+/*
+Mobile - 320px wide
+Tablet - 768px wide
+Small Desktop - 1024px wide
+Larger Desktop - 1440px wide
+*/
+
+.menu-icon > .line {
+	left:10%;
+    background-color: black;
+    height: 2px;
+    width: 25px;
+    left:15px;
+    display: block;
+}
+.menu-icon > .line + .line {
+	left:10%;
+    margin-top: 8px;
+}
+
+.horizontal > .hLine {
+    background-color: black;
+    height: 2px;
+    width:100%;
+    display: block;
+}
+
+.login {
+	color: black;
+	font-size: 1.2em;
+    display: block;
+    left:90%;
+	margin-top:8px;
+    position:absolute;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.space {
+    opacity:0.0;
+    top:3px;
+    bottom:3px;
+}
+
+body {
+	font-size: 1.2em;
+}
+#container {
+	width: 55vw;
+	margin: 50px auto;
+}
+.siteName {
+	width: 55vw;
+	margin: 0 auto;
+	font-family: 'Neuton', serif;
+}
+.headline {
+	width: 50vw;
+	margin: 0 auto;
+	font-family: 'Merriweather', serif;
+}
+.leftCol, .rightCol {
+	float: left;
+}
+.leftCol {
+	width: calc((100% / 2) - 25px);
+	margin-right: 25px;
+}
+.rightCol {
+	width: calc((100% / 2) - 25px);
+	margin-left: 25px;
+}
+.centerCol {
+	margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+img {
+	max-width: 100%;
+	margin-top: 20px;
+	/*margin-bottom: 20px;*/
+}
+.credit {
+	margin: 0 0 15px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.sources {
+	color: black;
+	font-size: .8em;
+    display: block;
+    left:25%;
+	margin-top:8px;
+    position:absolute;
+}
+.sourceItem{
+	color: black;
+	font-size: .6em;
+    display: block;
+    left:29%;
+	margin-top:4px;
+    position:absolute;
+}
+.shift {
+	margin: 700px 0 0 0;
+}
+h1 {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 4rem;
+	
+}
+p {
+	margin: 0 0 15px;
+	font-size: 1.3em;
+	font-family: 'Merriweather', serif;
+	line-height: 1.4em;
+}
+
+
+@media only screen and (max-width: 1440px) { /*Large Desktop*/
+	/*#container {
+		width: 90vw;
+		margin: 50px auto;
+	}
+	.headline {
+		width: 75vw;
+		margin: 0 auto;
+	}*/
+}
+@media only screen and (max-width: 1024px) { /*Small Desktop*/
+	/*body {
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#container {
+		width: 95vw;
+		margin: 50px auto;
+	}
+	.headline {
+		width: 95vw;
+		margin: 0 auto;
+	}
+	.leftCol {
+		width: 100%;
+		margin-right: 0;
+	}
+	.rightCol {
+		width: 100%;
+		margin-left: 0;
+	}*/
+}
