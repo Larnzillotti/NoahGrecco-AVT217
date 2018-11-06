@@ -168,6 +168,9 @@ p {
 
 
 @media only screen and (min-width: 320px) { /*320px Mobile*/
+	*{
+		margin-right:15vw;
+	}
 	h1 {
 		font-size:2.8rem;
 	}
@@ -192,7 +195,9 @@ p {
 }
 
 @media only screen and (min-width: 768px) { /*Tablet*/
-
+	*{
+		margin-right:15vw;
+	}
 	h1 {
 		font-size:3rem;
 	}
