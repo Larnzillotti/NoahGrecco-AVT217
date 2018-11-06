@@ -9,11 +9,9 @@ Larger Desktop - 1440px wide
 	background-color:#AD2A1A;  
     color:white;
 }
-
-.top {
-
+.fixed {
+	position:fixed;
 }
-
 .menu-icon > .line {
 	left:10%;
     background-color: black;
@@ -64,7 +62,7 @@ body {
 }
 #container {
 	width: 55vw;
-	margin: 50px auto;
+	margin: 0px auto;
 }
 .siteName {
 	width: 55vw;
@@ -105,7 +103,7 @@ img {
 	/*margin-bottom: 20px;*/
 }
 .img2 {
-		max-width: 25vw;
+	max-width: 25vw;
 }
 .credit {
 	margin: 0 0 15px;

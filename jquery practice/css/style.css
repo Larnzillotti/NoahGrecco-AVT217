@@ -1,0 +1,12 @@
+* {
+	transition: all 10s ease;
+}
+.bigger {
+	font-size: 200px;
+}
+.blue {
+	background-color: dodgerblue;
+}
+.yellow {
+	background-color: yellow;
+}
