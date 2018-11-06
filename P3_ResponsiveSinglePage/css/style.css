@@ -109,11 +109,17 @@ img {
 }
 .credit {
 	margin: 0 0 15px;
-	font-size: 1.3em;
+	font-size: 0.5em;
 	line-height: 1.4em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	margin-bottom: 20px;
-	font-weight: bold;
+}
+.writer {
+	margin: 0 0 15px;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 20px;
 }
 .sources {
 	color: black;
@@ -127,7 +133,7 @@ img {
 	color: black;
 	font-size: .6em;
     display: block;
-    left:29%;
+    left:10%;
 	margin-top:4px;
     position:absolute;
 }
@@ -135,6 +141,12 @@ img {
 	margin: 700px 0 0 0;
 }
 h1 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	float:center;
+}
+h2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
@@ -158,6 +170,9 @@ p {
 	h1 {
 		font-size:2.8rem;
 	}
+	h2 {
+		font-size:1.867rem;
+	}
 	p {
 		font-size: 1em;
 	}
@@ -173,6 +188,9 @@ p {
 
 	h1 {
 		font-size:3rem;
+	}
+	h2 {
+		font-size:2rem;
 	}
 	p {
 		font-size: 1em;
@@ -193,6 +211,9 @@ p {
 	h1 {
 		font-size: 4rem;
 	}
+	h2 {
+		font-size:2.67rem;
+	}
 	p {
 		font-size: 1.2em;
 	}
@@ -208,6 +229,9 @@ p {
 	}
 	h1 {
 		font-size: 4rem;
+	}
+	h2 {
+		font-size:2.67rem;
 	}
 	p {
 		font-size: 1.2em;
