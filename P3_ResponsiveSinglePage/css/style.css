@@ -178,9 +178,10 @@ p {
 	}
 	p {
 		font-size: 1em;
+		margin: 0 0 5px;
 	}
 	#container {
-		margin: 5vw auto;
+		margin: 1vw auto;
 	}
 	body {
 		font-size: 1em;
@@ -190,9 +191,11 @@ p {
 	margin-left: 5px;
 	}
 	.centerCol {
-		margin: 0 auto;
-    	text-align: left;
-    	width: 50vw;
+	width: calc((100% / 1.25));
+	margin-right: 5%;
+	margin-left: 5%;
+	margin: 0 auto;
+    text-align: left;	
 	}
 }
 
