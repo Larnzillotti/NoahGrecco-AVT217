@@ -132,23 +132,21 @@ img {
 }
 .sourceItem{
 	color: black;
-	font-size: .6em;
     display: block;
     left:10%;
 	margin-top:4px;
     position:absolute;
+    font-family: 'Merriweather', serif;
 }
 .shift {
 	margin: 700px 0 0 0;
 }
 h1 {
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
 	float:center;
 }
 h2 {
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
 	float:center;
@@ -168,14 +166,12 @@ p {
 
 
 @media only screen and (min-width: 320px) { /*320px Mobile*/
-	*{
-		margin-right:15vw;
-	}
+	
 	h1 {
 		font-size:2.8rem;
 	}
 	h2 {
-		font-size:1.867rem;
+		font-size:1.1rem;
 	}
 	p {
 		font-size: 1em;
@@ -192,17 +188,24 @@ p {
 	.img2 {
 	max-width: 28vw;
 	}
+
+	.rightCol {
+	margin-left: 5px;
+	}
+	.centerCol {
+		margin: 0 auto;
+    	text-align: left;
+    	width: 50vw;
+	}
 }
 
 @media only screen and (min-width: 768px) { /*Tablet*/
-	*{
-		margin-right:15vw;
-	}
+	
 	h1 {
 		font-size:3rem;
 	}
 	h2 {
-		font-size:2rem;
+		font-size:1.5rem;
 	}
 	p {
 		font-size: 1em;
@@ -230,7 +233,7 @@ p {
 		font-size: 4rem;
 	}
 	h2 {
-		font-size:2.67rem;
+		font-size:2rem;
 	}
 	p {
 		font-size: 1.2em;
@@ -248,7 +251,7 @@ p {
 		font-size: 4rem;
 	}
 	h2 {
-		font-size:2.67rem;
+		font-size:2rem;
 	}
 	p {
 		font-size: 1.2em;
