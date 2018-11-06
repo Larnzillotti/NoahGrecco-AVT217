@@ -102,6 +102,9 @@ img {
 	margin-top: 20px;
 	/*margin-bottom: 20px;*/
 }
+.img1 {
+	max-width: 55vw;
+}
 .img2 {
 	max-width: 25vw;
 }
