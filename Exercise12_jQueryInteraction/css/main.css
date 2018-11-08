@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	color: black;
+}
+#container {
+
+}
+.box {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	transition: all 2s ease;
+}
+h1, h2 {
+	margin: 0;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	/*padding: 45vh;*/
+	padding-top:25vh;
+	padding-left:15vw;
+	padding-right:15vw;
+
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 2s ease;
+}
+.bigger {
+	font-size: 100px;
+	padding-top: 5vh;
+}
+.jqClick {
+	border-bottom: 10px solid white;
+	cursor: pointer;
+}
+.jqHover {
+	cursor: progress;
+}
+.jqCoordinates {
+	border:2px groove;
+}
+h2 {
+	font-size: 300px;
+	text-align: center;
+	padding: 25vh;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.numbers {
+	font-size: 40px;
+}
+span {
+	display: block;
+}

@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	color: white;
+}
+#container {
+
+}
+.box {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	transition: all 2s ease;
+}
+.purpleBG {
+	background-color: rebeccapurple;
+}
+.blueBG {
+	background-color: dodgerblue;
+}
+.redBG {
+	background-color: tomato;
+}
+h1, h2 {
+	margin: 0;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	padding: 45vh;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 2s ease;
+}
+.bigger {
+	font-size: 100px;
+	padding-top: 15vh;
+}
+.jqClick {
+	border-bottom: 10px solid white;
+	cursor: pointer;
+}
+.jqHover {
+	cursor: progress;
+}
+h2 {
+	font-size: 300px;
+	text-align: center;
+	padding: 25vh;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.numbers {
+	font-size: 40px;
+}
