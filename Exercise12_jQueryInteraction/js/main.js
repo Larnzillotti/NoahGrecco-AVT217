@@ -39,6 +39,8 @@ function vPosH1() {
 
 function jqCoordinates() {
 
+	var leaveCount = 0;
+
 	$('.box').mousemove(function( e ) {
 		var offset = $(this).offset();
   		var relativeX = (e.pageX - offset.left);
@@ -61,5 +63,25 @@ function jqCoordinates() {
 		var Red_Value = simpleWidth * 2.55;
 		var Blue_Value = simpleHeight * 2.55;
   		$('.box').css("background-color", "rgb(" + Red_Value + ", 0, " + Blue_Value + ")");
+	});
+
+	$('.box').mouseleave(function( e ) {
+		
+		if (leaveCount == 1) {
+			$('.header').text("Come back");
+			leaveCount = 2;
+		} else if (leaveCount == 2) {
+			$('.header').text("I miss you already");
+			leaveCount = 3;
+		} else if (leaveCount == 3) {
+			$('.header').text("It's so cold");
+			leaveCount = 4;
+		} else if (leaveCount == 4) {
+			$('.header').text("Where do you go without me?");
+			leaveCount = 0;
+		} else {
+			$('.header').text("Where did you go?");
+			leaveCount = 1;
+		}
 	});
 }
