@@ -38,23 +38,28 @@ function vPosH1() {
 }
 
 function jqCoordinates() {
-	$('.box').mousemove(function( e ) {
-  		var offset = $(this).offset();
 
+	$('.box').mousemove(function( e ) {
+		var offset = $(this).offset();
   		var relativeX = (e.pageX - offset.left);
   		var relativeY = (e.pageY - offset.top);
-
   		var windowWidth = $(window).width();
-  		var windowHeight = $(window).height();
-
+ 		var windowHeight = $(window).height();
   		var simpleWidth = ((relativeX / windowWidth) * 100).toFixed(2);
-  		var simpleHeight = ((relativeY / windowHeight) * 100).toFixed(2);
-
+		var simpleHeight = ((relativeY / windowHeight) * 100).toFixed(2);
   		$('.coordinates').text("X: " + simpleWidth + "  Y: " + simpleHeight);
-
-  		var Red_Value = simpleWidth * 2.55;
+  	});
+  		
+	$('.box').click(function( e ) {
+		var offset = $(this).offset();
+  		var relativeX = (e.pageX - offset.left);
+  		var relativeY = (e.pageY - offset.top);
+  		var windowWidth = $(window).width();
+ 		var windowHeight = $(window).height();
+  		var simpleWidth = ((relativeX / windowWidth) * 100).toFixed(2);
+		var simpleHeight = ((relativeY / windowHeight) * 100).toFixed(2);
+		var Red_Value = simpleWidth * 2.55;
 		var Blue_Value = simpleHeight * 2.55;
-
-  		/*$('.box').css("color", "rgb()");*/
+  		$('.box').css("background-color", "rgb(" + Red_Value + ", 0, " + Blue_Value + ")");
 	});
 }
