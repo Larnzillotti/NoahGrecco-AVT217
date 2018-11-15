@@ -16,5 +16,6 @@
 			text-decoration: none;
 		} a:hover {
 			transition: all 1s ease;
-			color: red;
-			border-bottom: 5px dotted red;
+			color: green;
+			border-bottom: 5px underline black;
+			cursor: pointer;
