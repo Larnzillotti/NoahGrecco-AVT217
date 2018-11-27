@@ -25,12 +25,22 @@ function imageScroll() {
 		//$('.scrollDis').text('You have scrolled the page by: ' + scrollTopPer +'percent');
 		console.log('You have scrolled the page by: ' + scrollTopPer +' percent');
 
-		if ((scrollTopPer > 0) && (scrollTopPer <= 35)) {
+		if ((scrollTopPer > 0) && (scrollTopPer <= 10)) {
 			$('.img').attr("src","img/one.jpg");
-		} else if ((scrollTopPer > 35) && (scrollTopPer <= 75)) {
+		} else if ((scrollTopPer > 10) && (scrollTopPer <= 24)) {
 			$('.img').attr("src","img/two.jpg");
-		} else if (scrollTopPer > 75) {
+		} else if ((scrollTopPer > 24) && (scrollTopPer <= 42)) {
 			$('.img').attr("src","img/three.jpg");
+		} else if ((scrollTopPer > 42) && (scrollTopPer <= 55)) {
+			$('.img').attr("src","img/four.jpg");
+		} else if ((scrollTopPer > 55) && (scrollTopPer <= 71)) {
+			$('.img').attr("src","img/five.jpg");
+		} else if ((scrollTopPer > 71) && (scrollTopPer <= 86)) {
+			$('.img').attr("src","img/six.jpg");
+		} else if ((scrollTopPer > 86) && (scrollTopPer <= 97)) {
+			$('.img').attr("src","img/seven.jpg");
+		} else if (scrollTopPer > 97) {
+			$('.img').attr("src","img/eight.jpg");
 		}
 	})
 	
