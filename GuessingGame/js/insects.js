@@ -22,43 +22,43 @@ function beeGuess() {
 	if (rand == 1) {
 		$('.img').attr("src","images/honeybee/one.png");
 		stripped = "honeybee";
-		bee = 1;
+		bee = 0;
 	} else if (rand == 2) {
 		$('.img').attr("src","images/honeybee/two.png");
 		stripped = "honeybee";
-		bee = 1;
+		bee = 0;
 	} else if (rand == 3) {
 		$('.img').attr("src","images/honeybee/three.png");
 		stripped = "honeybee";
-		bee = 1;
+		bee = 0;
 	}
 	
 	if (rand == 4) {
 		$('.img').attr("src","images/wasp/one.png");
 		stripped = "wasp";
-		bee = 2;
+		bee = 1;
 	} else if (rand == 5) {
 		$('.img').attr("src","images/wasp/two.png");
 		stripped = "wasp";
-		bee = 2;
+		bee = 1;
 	} else if (rand == 6) {
 		$('.img').attr("src","images/wasp/three.png");
 		stripped = "wasp";
-		bee = 2;
+		bee = 1;
 	}
 	
 	if (rand == 7) {
 		$('.img').attr("src","images/hornet/one.png");
 		stripped = "hornet";
-		bee = 3;
+		bee = 2;
 	} else if (rand == 8) {
 		$('.img').attr("src","images/hornet/two.png");
 		stripped = "hornet";
-		bee = 3;
+		bee = 2;
 	} else if (rand == 9) {
 		$('.img').attr("src","images/hornet/three.png");
 		stripped = "hornet";
-		bee = 3;
+		bee = 2;
 	}
 		
 

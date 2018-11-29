@@ -25,20 +25,24 @@ function imageScroll() {
 		//$('.scrollDis').text('You have scrolled the page by: ' + scrollTopPer +'percent');
 		console.log('You have scrolled the page by: ' + scrollTopPer +' percent');
 
-		if ((scrollTopPer > 0) && (scrollTopPer <= 10)) {
+		if ((scrollTopPer > 0) && (scrollTopPer <= 18)) {
+			$('.img').attr("src","img/zero.jpg");
+		} else if ((scrollTopPer > 18) && (scrollTopPer <= 28)) {
 			$('.img').attr("src","img/one.jpg");
-		} else if ((scrollTopPer > 10) && (scrollTopPer <= 24)) {
+		} else if ((scrollTopPer > 28) && (scrollTopPer <= 36)) {
 			$('.img').attr("src","img/two.jpg");
-		} else if ((scrollTopPer > 24) && (scrollTopPer <= 42)) {
+		} else if ((scrollTopPer > 36) && (scrollTopPer <= 46)) {
 			$('.img').attr("src","img/three.jpg");
-		} else if ((scrollTopPer > 42) && (scrollTopPer <= 55)) {
+		} else if ((scrollTopPer > 46) && (scrollTopPer <= 55)) {
 			$('.img').attr("src","img/four.jpg");
-		} else if ((scrollTopPer > 55) && (scrollTopPer <= 71)) {
+		} else if ((scrollTopPer > 55) && (scrollTopPer <= 67)) {
 			$('.img').attr("src","img/five.jpg");
-		} else if ((scrollTopPer > 71) && (scrollTopPer <= 86)) {
+		} else if ((scrollTopPer > 67) && (scrollTopPer <= 76)) {
 			$('.img').attr("src","img/six.jpg");
-		} else if ((scrollTopPer > 86) && (scrollTopPer <= 97)) {
+		} else if ((scrollTopPer > 76) && (scrollTopPer <= 87)) {
 			$('.img').attr("src","img/seven.jpg");
+		} else if ((scrollTopPer > 87) && (scrollTopPer <= 97)) {
+			$('.img').attr("src","img/rex.jpg");
 		} else if (scrollTopPer > 97) {
 			$('.img').attr("src","img/eight.jpg");
 		}
