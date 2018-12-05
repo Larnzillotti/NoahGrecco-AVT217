@@ -1,3 +1,17 @@
+/* img {
+	max-width: 25vw;
+	position: -webkit-sticky;
+	position: fixed;
+	left: 15vw;
+}*/
+
+* {
+	transition: 0.2s all;
+	background-color:#7c377c; 
+    color:#eaeaea;
+    font-family: 'Open Sans', sans-serif; /*html files need the link from google fonts*/
+}
+
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -31,8 +45,11 @@ body {
 	margin-left: 15px;
 }
 img {
-	
 	max-width: 100%;
+	min-width: 35%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
 }
 .shift {
 	margin: 700px 0 0 0;
@@ -43,9 +60,13 @@ h1 {
 	letter-spacing: 1px;
 	text-align: center;
 	font-size: 4rem;
+	font-family: 'Poppins', sans-serif; /*html files need the link from google fonts*/
+	font-weight: bold;
 }
 p {
 	margin: 0 0 15px;
+	margin-top:15px;
+	margin-bottom: 15px;
 	font-size: 1.3em;
 	line-height: 1.4em;
 }
@@ -84,5 +105,24 @@ p {
 	.rightCol {
 		width: 100%;
 		margin-left: 0;
+	}
+	p {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media only screen and (min-width: 320px) {
+	p {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	img {
+	max-width: 95%;
 	}
 }
