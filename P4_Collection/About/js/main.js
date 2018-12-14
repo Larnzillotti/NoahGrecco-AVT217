@@ -2,13 +2,11 @@ $(document).ready(function() {
     // run function on initial page load
     menu();
 	imageScroll();
-	
 	// vPosH1();
 
 	// run function on resize of the window
     $(window).resize(function() {
       // vPosH1();
-      invisibleImages();
     });
 
     // run function on scroll
@@ -26,14 +24,6 @@ function menu() {
     }
 }
 
-function invisibleImages() {  //768px
-	if ($(window).width() < 768) {
-		$('.img2').attr("style","display: show;");
-	} else {
-		$('.img2').attr("style","display: none;");
-	}
-}
-
 function imageScroll() {
 //0-35, 35-75, 75+
 	$(window).on('scroll', function() {
@@ -44,25 +34,25 @@ function imageScroll() {
 		//$('.scrollDis').text('You have scrolled the page by: ' + scrollTopPer +'percent');
 		console.log('You have scrolled the page by: ' + scrollTopPer +' percent');
 
-		if ((scrollTopPer > 0) && (scrollTopPer <= 12.74)) {
+		if ((scrollTopPer > 0) && (scrollTopPer <= 12.5)) {
 			$('.img').attr("src","img/zero.jpg");
-		} else if ((scrollTopPer > 12.74) && (scrollTopPer <= 22.25)) {
+		} else if ((scrollTopPer > 12.5) && (scrollTopPer <= 23)) {
 			$('.img').attr("src","img/one.jpg");
-		} else if ((scrollTopPer > 22.25) && (scrollTopPer <= 31.56)) {
+		} else if ((scrollTopPer > 23) && (scrollTopPer <= 32)) {
 			$('.img').attr("src","img/two.jpg");
-		} else if ((scrollTopPer > 31.56) && (scrollTopPer <= 43)) {
+		} else if ((scrollTopPer > 32) && (scrollTopPer <= 43.5)) {
 			$('.img').attr("src","img/three.jpg");
-		} else if ((scrollTopPer > 43) && (scrollTopPer <= 50.57)) {
+		} else if ((scrollTopPer > 43.5) && (scrollTopPer <= 51)) {
 			$('.img').attr("src","img/four.jpg");
-		} else if ((scrollTopPer > 50.57) && (scrollTopPer <= 63.265)) {
+		} else if ((scrollTopPer > 51) && (scrollTopPer <= 63.5)) {
 			$('.img').attr("src","img/five.jpg");
-		} else if ((scrollTopPer > 63.265) && (scrollTopPer <= 72.879)) {
+		} else if ((scrollTopPer > 63.5) && (scrollTopPer <= 73)) {
 			$('.img').attr("src","img/six.jpg");
-		} else if ((scrollTopPer > 72.879) && (scrollTopPer <= 86.2)) {
+		} else if ((scrollTopPer > 73) && (scrollTopPer <= 86)) {
 			$('.img').attr("src","img/seven.jpg");
-		} else if ((scrollTopPer > 86.2) && (scrollTopPer <= 98.2)) {
+		} else if ((scrollTopPer > 86) && (scrollTopPer <= 97.5)) {
 			$('.img').attr("src","img/rex.jpg");
-		} else if (scrollTopPer > 98.2) {
+		} else if (scrollTopPer > 97.5) {
 			$('.img').attr("src","img/eight.jpg");
 		}
 	})
